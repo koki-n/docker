@@ -1,2 +1,16 @@
 docker/mysql/data/*
 !.gitkeep
+
+
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+
+# Docker
+#Dockerfile ← コメントアウト
+docker-compose.yml
